@@ -2,32 +2,31 @@
 
 <html>
 
-  <head>
+  <head> 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
     <script src="video_AnaHertaj.js"></script>
-    
+
     <link rel="stylesheet" type="text/css" href="video_AnaHertaj.css">
 
   </head>
 
   <body>
 
-    <div style="margin:0px auto;text-align:center;">
+    <div class="content">
 
-         <!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
-        <div id="player"></div>
+      <h2>Video Controls for YouTubeAPI</h2>
+
+      <!-- 1. The <iframe> (and video player) will replace this <div> tag. | continues in js file |-->
+      <div id="player"></div>
          
+      <div class="buttons-goup">
 
-         <!-- BUTTONS -->
-         <div style="margin:0px auto;text-align:center;width:320px">
+          <button id="playpause" class="button-play-pause">PLAY</button> 
 
+          <button class="button-stop" onclick="stopVideo()">STOP (REW)</button>  
 
-           <button id="playpause" onclick="" style="height:30px; width:100px;background-color: purple;color:white;display:block">PLAY</button> 
-
-           <button class="button-stop" onclick="stopVideo()" style="height:30px; width:100px;background-color: indianred;display:block">STOP</button>  
-
-          </div>
+       </div>
 
     </div>
 

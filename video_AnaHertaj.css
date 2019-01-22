@@ -1,2 +1,7 @@
-button.button-stop,button.button-pause{color:white;}
-button{display:inline; float:left;}
+body{font-family: arial, sans-serif}
+.content{margin:0px auto;text-align:center;}
+.buttons-goup{margin:0px auto;text-align:center;width:640px;background-color:lightgray;height:52px;display: flex;align-items: center;justify-content: center;}
+button{float:left;margin:1em;letter-spacing:0.05em;color:white;height:30px; width:100px;}
+button:focus{outline:none}
+.button-play-pause{background-color:purple}
+.button-stop{background-color:indianred}
