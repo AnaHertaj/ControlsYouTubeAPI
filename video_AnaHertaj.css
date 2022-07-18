@@ -4,4 +4,4 @@ body{font-family: arial, sans-serif}
 button{float:left;margin:1em;letter-spacing:0.05em;color:white;height:30px; width:100px;}
 button:focus{outline:none}
 .button-play-pause{background-color:blue}
-.button-stop{background-color:indianred}
+.button-stop{background-color:rgb(110, 20, 20)}
